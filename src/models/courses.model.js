@@ -1,4 +1,4 @@
-import mongoose, { model, Types } from "mongoose";
+import mongoose from "mongoose";
 
 const course = mongoose.Schema(
   {
