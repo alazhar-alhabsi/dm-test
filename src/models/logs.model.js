@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const course = mongoose.Schema(
+const log = mongoose.Schema(
   {
     user_id: { type: String },
     error: { type: String },
@@ -10,6 +10,6 @@ const course = mongoose.Schema(
   { timestamps: true }
 );
 
-const courseSchema = new mongoose.model("logs", course);
+const logSchema = new mongoose.model("logs", log);
 
-export default courseSchema;
+export default logSchema;
